@@ -17,6 +17,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 
         app.UseMvc();
         }
+    }
 ```
 
 Try the demo project. When authorized you will get a correct response:
